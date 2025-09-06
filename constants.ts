@@ -1,0 +1,77 @@
+
+import { InstitutionReport, InstitutionType } from './types';
+
+export const INSTITUTION_TYPES: InstitutionType[] = [
+    InstitutionType.TPQ,
+    InstitutionType.MDT,
+    InstitutionType.RTQ,
+    InstitutionType.PAUDQU
+];
+
+export const MOCK_REPORTS: InstitutionReport[] = [
+    {
+        id: 1,
+        institutionType: InstitutionType.TPQ,
+        institutionName: "TPQ Al-Ikhlas",
+        address: "Jl. Merdeka No. 10, Gowa",
+        operatorName: "Ahmad Santoso",
+        supervisorName: "Dr. H. Muhammad Idris",
+        phone: "081234567890",
+        permitNumber: "SK-001/TPQ/KEMENAG/2023",
+        maleStudents: 50,
+        femaleStudents: 65,
+        reportMonth: "2024-05",
+    },
+    {
+        id: 2,
+        institutionType: InstitutionType.MDT,
+        institutionName: "MDT Nurul Hidayah",
+        address: "Jl. Pendidikan No. 5, Somba Opu",
+        operatorName: "Siti Aminah",
+        supervisorName: "Prof. Dr. Hj. Fatimah",
+        phone: "082345678901",
+        permitNumber: "SK-002/MDT/KEMENAG/2023",
+        maleStudents: 75,
+        femaleStudents: 80,
+        reportMonth: "2024-05",
+    },
+    {
+        id: 3,
+        institutionType: InstitutionType.RTQ,
+        institutionName: "RTQ Baiturrahman",
+        address: "Kompleks Griya Indah Blok A1",
+        operatorName: "Abdullah Hafidz",
+        supervisorName: "KH. Anwar Musaddad",
+        phone: "085678901234",
+        permitNumber: "SK-003/RTQ/KEMENAG/2022",
+        maleStudents: 30,
+        femaleStudents: 25,
+        reportMonth: "2024-04",
+    },
+    {
+        id: 4,
+        institutionType: InstitutionType.PAUDQU,
+        institutionName: "PAUDQU Tunas Cendekia",
+        address: "Jl. Cendrawasih No. 20",
+        operatorName: "Dewi Lestari",
+        supervisorName: "Dr. H. Muhammad Idris",
+        phone: "087890123456",
+        permitNumber: "SK-004/PAUDQU/KEMENAG/2024",
+        maleStudents: 20,
+        femaleStudents: 22,
+        reportMonth: "2024-05",
+    },
+     {
+        id: 5,
+        institutionType: InstitutionType.TPQ,
+        institutionName: "TPA An-Nur",
+        address: "Jl. Pattallassang No. 12",
+        operatorName: "Yusuf Ibrahim",
+        supervisorName: "KH. Anwar Musaddad",
+        phone: "081122334455",
+        permitNumber: "SK-005/TPQ/KEMENAG/2021",
+        maleStudents: 45,
+        femaleStudents: 55,
+        reportMonth: "2024-04",
+    },
+];
